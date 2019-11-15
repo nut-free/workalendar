@@ -4,6 +4,11 @@
 
 - Small refactorings on the Gevena (Switzerland) holiday class.
 
+### ISO Registry API Change
+
+- Changes in the ``registry.items()`` method API. This method now accepts an empty/missing ``region_codes`` argument to retrieve the full registry. Please see the [ISO Registry documentation](https://peopledoc.github.io/workalendar/iso-registry.html) for extensive usage docs (#403, #375).
+
+
 ## v7.1.1 (2019-11-22)
 
 - **Bugfix** for USA: Fixed incorrect implementation for Thanksgiving Friday, thx @deveshvar (#422).
